@@ -1,0 +1,45 @@
+@import "heading.css";
+@import "paragraph.css";
+
+.col-md-4{
+	flex-grow: 1;
+}
+
+#div1{
+	height: 100px;
+	width: 100px;
+	border: 3px solid black;
+	position: relative;
+	background-color: red;
+	-webkit-animation-name:example;
+	-webkit-animation-duration:2s;
+	-webkit-animation-delay:1s;
+}
+
+@-webkit-keyframes example{
+	0%{
+		background-color: red;
+		left: 0px;
+		top:0px;
+	}
+	25%{
+		background-color: yellow;
+		left: 200px;
+		top:0px;
+	}
+	50%{
+		background-color: pink;
+		left: 200px;
+		top:200px;
+	}
+	75%{
+		background-color: purple;
+		left: 0px;
+		top:200px;
+	}
+	100%{
+		background-color: purple;
+		left: 0px;
+		top:0px;
+	}
+}

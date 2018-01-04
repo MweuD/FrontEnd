@@ -1,0 +1,23 @@
+h2{
+	background: green;
+	color: white;
+	padding: 10px;
+	width: 100%;
+	color: #36C;
+	text-align: center;
+}
+#last{
+	background: black;
+	color: white;
+	padding: 10px;
+	background-size: cover;
+	border-top-left-radius: 50px;
+}
+#second{
+	background: aqua;
+	color: white;
+	padding: 10px;
+	width: 100%;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+}

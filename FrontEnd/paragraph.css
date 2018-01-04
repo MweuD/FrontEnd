@@ -1,0 +1,16 @@
+.col-md-4#first{
+	background: -webkit-linear-gradient(left top, grey 20%, white 50%);
+}
+
+.col-md-4#lasty{
+	background: -webkit-linear-gradient(right top, grey 20%, white 50%);
+	border-bottom-right-radius: 100px;
+}
+/**
+img:hover{
+	border-radius: 500px;
+	-webkit-transition:2s ease-in-out;
+}**/
+img:hover{
+	-webkit-transform:rotate(180deg);
+}
